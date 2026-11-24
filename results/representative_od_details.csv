@@ -1,0 +1,43 @@
+﻿case_category,pair_id,od_src,od_dst,algorithm,path,segment_no,src,dst,mode,airline,stops,duration_min,distance_km,distance_basis,includes_haversine_proxy,edge_count,total_duration,total_distance_km,flight_edge_count,ground_edge_count
+bfs_vs_time,145,A0495,A0231,bfs,A0495 -> A0253 -> A0305 -> A0236 -> A0231,1,A0495,A0253,flight,CA,0,1378,17175.7,route_csv,False,4,4881,60376.6,4,0
+bfs_vs_time,145,A0495,A0231,bfs,A0495 -> A0253 -> A0305 -> A0236 -> A0231,2,A0253,A0305,flight,MU,0,1327,16641.7,route_csv,False,4,4881,60376.6,4,0
+bfs_vs_time,145,A0495,A0231,bfs,A0495 -> A0253 -> A0305 -> A0236 -> A0231,3,A0305,A0236,flight,MU,0,1253,15469.3,route_csv,False,4,4881,60376.6,4,0
+bfs_vs_time,145,A0495,A0231,bfs,A0495 -> A0253 -> A0305 -> A0236 -> A0231,4,A0236,A0231,flight,SQ,0,923,11089.9,route_csv,False,4,4881,60376.6,4,0
+bfs_vs_time,145,A0495,A0231,dijkstra_time,A0495 -> A0551 -> A0250 -> A0570 -> A0231,1,A0495,A0551,flight,JL,0,582,7075.3,route_csv,False,4,1084,11905.0,4,0
+bfs_vs_time,145,A0495,A0231,dijkstra_time,A0495 -> A0551 -> A0250 -> A0570 -> A0231,2,A0551,A0250,flight,JL,0,238,2610.2,route_csv,False,4,1084,11905.0,4,0
+bfs_vs_time,145,A0495,A0231,dijkstra_time,A0495 -> A0551 -> A0250 -> A0570 -> A0231,3,A0250,A0570,flight,HU,0,155,1456.1,route_csv,False,4,1084,11905.0,4,0
+bfs_vs_time,145,A0495,A0231,dijkstra_time,A0495 -> A0551 -> A0250 -> A0570 -> A0231,4,A0570,A0231,flight,HU,1,109,763.4,route_csv,False,4,1084,11905.0,4,0
+bfs_vs_time,145,A0495,A0231,dijkstra_distance,A0495 -> A0551 -> A0250 -> A0570 -> A0231,1,A0495,A0551,flight,JL,0,582,7075.3,route_csv,False,4,1084,11905.0,4,0
+bfs_vs_time,145,A0495,A0231,dijkstra_distance,A0495 -> A0551 -> A0250 -> A0570 -> A0231,2,A0551,A0250,flight,JL,0,238,2610.2,route_csv,False,4,1084,11905.0,4,0
+bfs_vs_time,145,A0495,A0231,dijkstra_distance,A0495 -> A0551 -> A0250 -> A0570 -> A0231,3,A0250,A0570,flight,HU,0,155,1456.1,route_csv,False,4,1084,11905.0,4,0
+bfs_vs_time,145,A0495,A0231,dijkstra_distance,A0495 -> A0551 -> A0250 -> A0570 -> A0231,4,A0570,A0231,flight,HU,1,109,763.4,route_csv,False,4,1084,11905.0,4,0
+bfs_vs_distance,118,A0229,A0564,bfs,A0229 -> A0304 -> A0360 -> A0581 -> A0564,1,A0229,A0304,flight,MU,0,1495,18764.1,route_csv,False,4,2103,24285.899999999998,4,0
+bfs_vs_distance,118,A0229,A0564,bfs,A0229 -> A0304 -> A0360 -> A0581 -> A0564,2,A0304,A0360,flight,MU,0,172,1607.3,route_csv,False,4,2103,24285.899999999998,4,0
+bfs_vs_distance,118,A0229,A0564,bfs,A0229 -> A0304 -> A0360 -> A0581 -> A0564,3,A0360,A0581,flight,JL,0,174,1465.9,route_csv,False,4,2103,24285.899999999998,4,0
+bfs_vs_distance,118,A0229,A0564,bfs,A0229 -> A0304 -> A0360 -> A0581 -> A0564,4,A0581,A0564,flight,CA,0,262,2448.6,route_csv,False,4,2103,24285.899999999998,4,0
+bfs_vs_distance,118,A0229,A0564,dijkstra_time,A0229 -> A0304 -> A0360 -> A0581 -> A0564,1,A0229,A0304,flight,CA,0,1485,18764.1,route_csv,False,4,2085,24285.899999999998,4,0
+bfs_vs_distance,118,A0229,A0564,dijkstra_time,A0229 -> A0304 -> A0360 -> A0581 -> A0564,2,A0304,A0360,flight,CA,0,164,1607.3,route_csv,False,4,2085,24285.899999999998,4,0
+bfs_vs_distance,118,A0229,A0564,dijkstra_time,A0229 -> A0304 -> A0360 -> A0581 -> A0564,3,A0360,A0581,flight,JL,0,174,1465.9,route_csv,False,4,2085,24285.899999999998,4,0
+bfs_vs_distance,118,A0229,A0564,dijkstra_time,A0229 -> A0304 -> A0360 -> A0581 -> A0564,4,A0581,A0564,flight,CA,0,262,2448.6,route_csv,False,4,2085,24285.899999999998,4,0
+bfs_vs_distance,118,A0229,A0564,dijkstra_distance,A0229 -> A0575 -> A0085 -> A0514 -> A0134 -> A0334 -> A0564,1,A0229,A0575,flight,CA,0,984,12324.3,route_csv,False,6,2093,23123.9,6,0
+bfs_vs_distance,118,A0229,A0564,dijkstra_distance,A0229 -> A0575 -> A0085 -> A0514 -> A0134 -> A0334 -> A0564,2,A0575,A0085,flight,JL,0,122,1057.9,route_csv,False,6,2093,23123.9,6,0
+bfs_vs_distance,118,A0229,A0564,dijkstra_distance,A0229 -> A0575 -> A0085 -> A0514 -> A0134 -> A0334 -> A0564,3,A0085,A0514,flight,MU,0,636,7497.3,route_csv,False,6,2093,23123.9,6,0
+bfs_vs_distance,118,A0229,A0564,dijkstra_distance,A0229 -> A0575 -> A0085 -> A0514 -> A0134 -> A0334 -> A0564,4,A0514,A0134,flight,MU,1,108,813.7,route_csv,False,6,2093,23123.9,6,0
+bfs_vs_distance,118,A0229,A0564,dijkstra_distance,A0229 -> A0575 -> A0085 -> A0514 -> A0134 -> A0334 -> A0564,5,A0134,A0334,flight,CA,0,122,630.1,route_csv,False,6,2093,23123.9,6,0
+bfs_vs_distance,118,A0229,A0564,dijkstra_distance,A0229 -> A0575 -> A0085 -> A0514 -> A0134 -> A0334 -> A0564,6,A0334,A0564,flight,JL,0,121,800.6,route_csv,False,6,2093,23123.9,6,0
+all_same,156,A0249,A0558,bfs,A0249 -> A0558,1,A0249,A0558,flight,MU,0,931,11206.5,route_csv,False,1,931,11206.5,1,0
+all_same,156,A0249,A0558,dijkstra_time,A0249 -> A0558,1,A0249,A0558,flight,MU,0,931,11206.5,route_csv,False,1,931,11206.5,1,0
+all_same,156,A0249,A0558,dijkstra_distance,A0249 -> A0558,1,A0249,A0558,flight,MU,0,931,11206.5,route_csv,False,1,931,11206.5,1,0
+all_distinct,78,A0566,A0557,bfs,A0566 -> A0485 -> A0228 -> A0213 -> A0557,1,A0566,A0485,flight,JL,0,1310,16265.2,route_csv,False,4,3662,44904.3,4,0
+all_distinct,78,A0566,A0557,bfs,A0566 -> A0485 -> A0228 -> A0213 -> A0557,2,A0485,A0228,flight,SQ,0,1089,13421.7,route_csv,False,4,3662,44904.3,4,0
+all_distinct,78,A0566,A0557,bfs,A0566 -> A0485 -> A0228 -> A0213 -> A0557,3,A0228,A0213,flight,CZ,0,414,4751.8,route_csv,False,4,3662,44904.3,4,0
+all_distinct,78,A0566,A0557,bfs,A0566 -> A0485 -> A0228 -> A0213 -> A0557,4,A0213,A0557,flight,HU,0,849,10465.6,route_csv,False,4,3662,44904.3,4,0
+all_distinct,78,A0566,A0557,dijkstra_time,A0566 -> A0002 -> A0333 -> A0183 -> A0293 -> A0557,1,A0566,A0002,flight,SQ,0,463,5448.0,route_csv,False,5,1734,19192.0,5,0
+all_distinct,78,A0566,A0557,dijkstra_time,A0566 -> A0002 -> A0333 -> A0183 -> A0293 -> A0557,2,A0002,A0333,flight,CA,0,126,821.5,route_csv,False,5,1734,19192.0,5,0
+all_distinct,78,A0566,A0557,dijkstra_time,A0566 -> A0002 -> A0333 -> A0183 -> A0293 -> A0557,3,A0333,A0183,flight,JL,1,181,1691.3,route_csv,False,5,1734,19192.0,5,0
+all_distinct,78,A0566,A0557,dijkstra_time,A0566 -> A0002 -> A0333 -> A0183 -> A0293 -> A0557,4,A0183,A0293,flight,HU,0,154,1391.2,route_csv,False,5,1734,19192.0,5,0
+all_distinct,78,A0566,A0557,dijkstra_time,A0566 -> A0002 -> A0333 -> A0183 -> A0293 -> A0557,5,A0293,A0557,flight,CA,0,810,9840.0,route_csv,False,5,1734,19192.0,5,0
+all_distinct,78,A0566,A0557,dijkstra_distance,A0566 -> A0002 -> A0443 -> A0392 -> A0557,1,A0566,A0002,flight,SQ,0,463,5448.0,route_csv,True,4,1870,18131.5634762309,3,1
+all_distinct,78,A0566,A0557,dijkstra_distance,A0566 -> A0002 -> A0443 -> A0392 -> A0557,2,A0002,A0443,bus,,0,434,1440.763476230898,ground_haversine_proxy,True,4,1870,18131.5634762309,3,1
+all_distinct,78,A0566,A0557,dijkstra_distance,A0566 -> A0002 -> A0443 -> A0392 -> A0557,3,A0443,A0392,flight,CA,0,104,748.7,route_csv,True,4,1870,18131.5634762309,3,1
+all_distinct,78,A0566,A0557,dijkstra_distance,A0566 -> A0002 -> A0443 -> A0392 -> A0557,4,A0392,A0557,flight,HU,1,869,10494.1,route_csv,True,4,1870,18131.5634762309,3,1
